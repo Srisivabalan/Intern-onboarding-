@@ -47,7 +47,7 @@ Example Output
 /hello - Hello from Express!
 /time - Current server time
 
-##Day 4 – User API with In-Memory Storage
+**##Day 4 – User API with In-Memory Storage
 
 This project demonstrates building REST API endpoints using Express.js and storing user data in memory.
 
