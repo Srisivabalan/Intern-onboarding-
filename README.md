@@ -76,8 +76,4 @@ This data is not persistent and will be cleared automatically when the server is
 Learning Outcome:
 Built POST and GET APIs using Express.js, stored user data in server memory, and tested the APIs using terminal commands.
 
-
-
-
-
 >>>>>>> 885ec708e3dd2c5bd356fc3c1a2ea7d693e1f358
