@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 
 // Middleware to parse JSON
@@ -55,7 +55,6 @@ app.get("/users", (req, res) => {
   });
 });
 
-// Start server
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Backend server running on port ${PORT}`);
 });

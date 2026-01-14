@@ -1,7 +1,6 @@
 const express = require("express");
-
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 
 app.use(express.json());
@@ -58,7 +57,7 @@ app.get("/users", (req, res) => {
   });
 });
 
-
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Backend server running on port ${PORT}`);
 });
+
