@@ -45,9 +45,6 @@ Example Output
 
 /health - { "status": "OK" }
 /hello - Hello from Express!
-<<<<<<< HEAD
-/time - Current server time
-=======
 /time - Current server time
 
 ## Day 4 – User API with In-Memory Storage
@@ -76,9 +73,6 @@ This data is not persistent and will be cleared automatically when the server is
 Learning Outcome:
 Built POST and GET APIs using Express.js, stored user data in server memory, and tested the APIs using terminal commands.
 
->>>>>>> 885ec708e3dd2c5bd356fc3c1a2ea7d693e1f358
-
-
 ## Task 5: Git Workflow & Code Refactoring
 - Refactored existing backend code to improve readability and structure.
 - Followed proper Git workflow using a feature branch.
@@ -89,3 +83,9 @@ Built POST and GET APIs using Express.js, stored user data in server memory, and
 - Organized the project with a clean and maintainable folder structure.
 - Added a `.gitignore` file to exclude unnecessary files (node_modules, build files, etc.).
 - Ensured the repository follows standard development practices.
+
+## Day 7 – Frontend and Backend Integration
+
+The data is obtained at the frontend (Next.js) from the backend (Express API) through the Fetch API.
+JSON data is sent back by the backend which is now dynamically presented in the UI. 
+Backend URLs are kept secure by using environment variables.
