@@ -77,3 +77,15 @@ Learning Outcome:
 Built POST and GET APIs using Express.js, stored user data in server memory, and tested the APIs using terminal commands.
 
 >>>>>>> 885ec708e3dd2c5bd356fc3c1a2ea7d693e1f358
+
+
+## Task 5: Git Workflow & Code Refactoring
+- Refactored existing backend code to improve readability and structure.
+- Followed proper Git workflow using a feature branch.
+- Used meaningful commit messages.
+- Pushed changes to GitHub and raised a Pull Request for review.
+
+## Task 6: Project Structure Setup
+- Organized the project with a clean and maintainable folder structure.
+- Added a `.gitignore` file to exclude unnecessary files (node_modules, build files, etc.).
+- Ensured the repository follows standard development practices.
