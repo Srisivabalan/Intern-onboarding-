@@ -89,3 +89,22 @@ Built POST and GET APIs using Express.js, stored user data in server memory, and
 The data is obtained at the frontend (Next.js) from the backend (Express API) through the Fetch API.
 JSON data is sent back by the backend which is now dynamically presented in the UI. 
 Backend URLs are kept secure by using environment variables.
+
+## Day 8 – AWS Fundamentals (S3)
+
+Overview:
+-In this task I focused on learning basic AWS cloud concepts, and I used Amazon S3 for static file hosting.
+
+What I Did,
+-First, I created an AWS free tier account
+-Next, I understood the high-level concepts of EC2, S3, and Lambda
+-I created an S3 bucket
+-Then I uploaded a static file to S3
+-Lastly, I changed the bucket permissions to allow public access
+
+Outcome,
+-I was able to successfully access the file that I uploaded using the public S3 URL.
+
+Learning,
+Amazon S3 is primarily for storage and serving static content.
+However, it is unable to run backend codes such as Node.js, hence, it is only appropriate for static websites hosting.
