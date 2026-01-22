@@ -108,3 +108,22 @@ Outcome,
 Learning,
 Amazon S3 is primarily for storage and serving static content.
 However, it is unable to run backend codes such as Node.js, hence, it is only appropriate for static websites hosting.
+
+# Day 9 – Deployment Fundamentals
+
+Backend,
+- Built with Node.js and Express
+- Deployed on Render
+- API endpoints: `/health`, `/users`, `/time`
+
+Frontend,
+- Built with Next.js
+- Deployed on Vercel
+- Fetches data from backend using environment variables
+
+Live URLs,
+- Backend: https://intern-onboarding-backend-day9task.onrender.com/
+- Frontend: https://internship-onboarding-frontend.vercel.app  
+
+Learning,
+Deployed frontend and backend as separate projects and connected them successfully in production.
